@@ -1,0 +1,116 @@
+h1{
+	text-align:center;
+	background:#ff6b6b;
+	margin:0;
+	margin-bottom: 10px;
+}
+h2{
+	text-align:center;
+}
+
+.border{
+	width:100%;
+	height:60px;
+	background:#ddd;
+	margin-bottom: 10px;
+}
+/*border tyle start*/
+.solid{
+	border:3px solid #222f3e;
+}
+.dotted{
+	border:3px dotted #222f3e;
+}
+.dashed{
+	border:3px dashed #222f3e;	
+}
+.double{
+	border:3px double #222f3e;	
+}
+.groove{
+	border:3px groove #222f3e;	
+}
+.ridge{
+	border:3px ridge #222f3e;	
+}
+
+.radius{
+	border-radius:5px 10px 20px 30px;
+}
+.shorthand{
+	 border-left: 5px solid #222f3e;
+}
+/*border tyle end*/
+
+/*padding start*/
+.padding{
+	overflow:hidden;
+	margin:0 auto;
+	width:25%;
+	margin-bottom:10px;
+}
+.box{
+	width:200px;
+	height:200px;
+	background:#ddd;
+	padding:10px 20px 30px 40px;
+}
+
+/*padding end*/
+
+/*margin start*/
+.margin{
+	overflow:hidden;
+	margin:0 auto;
+	width:50%;
+}
+.m-box{
+	float:left;
+	margin:10px 20px 30px 40px;
+
+}
+
+/*margin end*/
+/*outline start*/
+.outline{
+outline:5px solid #222f3e;
+outline-offset:10px;
+margin-top:40px;
+margin-bottom:40px;
+box-sizing:border-box;
+
+}
+/*outline end*/
+
+/*text start*/
+.text-color{
+	color:#222f3e;
+}
+.center{
+	font-size:20px;
+	text-align:center;
+}
+.right{
+	font-size:20px;
+	text-align:right;
+}
+.text-d{
+	width:25%;
+	margin:0 auto;
+}
+.text-decoration a{
+	text-decoration:none;
+	margin-left: 15px;
+
+}
+.border p{
+	letter-spacing:2px;
+	word-spacing:5px;
+	line-height:20px;
+}
+h3{
+	text-align:center;
+	font-size:30px;
+	text-shadow: 2px 2px red;
+}
+/*text end*/
